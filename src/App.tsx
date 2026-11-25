@@ -20,8 +20,8 @@ function App() {
       {/* Centered Maricon logo */}
       <img
         className="maricon-logo"
-        src="/images/kandi.png"
-        alt="Maricon"
+        src="/images/kandi_h.png"
+        alt="Kandi Milk"
       />
 
       {/* Instagram */}
