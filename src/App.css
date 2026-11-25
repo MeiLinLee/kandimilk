@@ -38,14 +38,20 @@
   position: absolute;
   z-index: 2;
 
-  width: min(65vw, 700px);
+  width: clamp(120px, 18vw, 200px);
   height: auto;
-  max-height: 55vh;
+  max-height: 30vh;
 
   object-fit: contain;
   object-position: center;
 }
 
+@media (max-width: 600px) {
+  .maricon-logo {
+    width: clamp(120px, 38vw, 165px);
+    max-height: 25vh;
+  }
+}
 /* Instagram */
 
 .instagram {

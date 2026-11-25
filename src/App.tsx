@@ -1,5 +1,4 @@
 
-import { SiInstagram } from "react-icons/si";
 import "./App.css";
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
       {/* Centered Maricon logo */}
       <img
         className="maricon-logo"
-        src="/images/maricon.png"
+        src="/images/kandi.png"
         alt="Maricon"
       />
 
@@ -33,7 +32,6 @@ function App() {
         rel="noopener noreferrer"
         aria-label="Visit Kandi Milk on Instagram"
       >
-        <SiInstagram size={19} />
         <span>@KANDIMILK</span>
       </a>
     </main>
